@@ -17,7 +17,7 @@ body {
 
 h1 {
     color: rgb(179, 131, 226);
-    font-size: 5rem;
+    font-size: 8rem;
     text-align: center;
     opacity: 0.4;
     margin: 2rem 0;
@@ -28,13 +28,13 @@ form {
     text-align: center;
     margin: auto;
     max-width: 100%;
-    width: 400px;
+    width: 700px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 .input {
-    font-size: 2rem;
-    padding: 0.5rem 1rem;
+    font-size: 3rem;
+    padding: 1rem 2rem;
     display: block;
     width: 100%;
     outline: none;
@@ -61,7 +61,7 @@ form {
 
 .todos li {
     border-top: 1px solid #e5e5e5;
-    font-size: 1rem;
+    font-size: 2rem;
     padding: 0.5rem 1rem;
     cursor: pointer;
     position: relative;
@@ -87,10 +87,19 @@ form {
     margin: auto;
     width: 100%;
     margin-top: 3rem;
-    font-size: 0.75rem;
+    font-size: 1rem;
     color: #b5b5b5
 }
 
 .instruction div {
     margin-bottom: 0.5rem;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 0.5rem;
+    color: #b5b5b5;
+    text-shadow: 1px 1px 2px black;
 }
